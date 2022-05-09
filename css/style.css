@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+font-family: 'Montserrat', sans-serif;
+    
+}
+.Glavniheader
+{
+    height: 80px;
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+}
+
+
+.Glavniheader .leviheader
+{
+    float: left;
+    height: 80px;
+    width: 329px;
+    background-color: #fff;
+    background-image: url(images/logo.png) ;
+    
+    }
+
+
+
+
+
+
+.Glavniheader .desniheader
+{
+    float: right;
+    height: 80px;
+    width: 500px;
+    background-color: #fff;
+}
+
+
+
+.dropMenu
+{
+    height: 70px;
+    width: auto;
+   padding: 11px;
+    margin: auto;
+   
+}
+
+.dropMenu ul
+{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    margin-left: 14%;
+    padding-top: 1.9%;
+}
+
+.dropMenu li
+{
+    float: left;
+    
+}
+
+.dropMenu li a, .dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    color: #154182;
+    font-size: 20px;
+
+}
+
+
+.dropMenu li a:hover, .dropDown:hover .dropbtn {
+  background-color: #ffcc00;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+
+.dropMenu li .dropDown {
+  display: inline-block;
+}
+
+
+
+/* drugi deo ispod hedera */
+
+.VelikaSLika
+{
+    margin: auto;
+    height: 500px;
+    width: 1200px;
+}
+
+
+.VelikaSLika .slika
+{
+    height: 500px;
+    width: 1200px;
+    background-image: url(images/topImage.jpg);
+}
+
+
+.VelikaSLika .slika .txtNaSlici
+{
+    height: 400px;
+    width: 300px;
+    padding-left: 63px;
+padding-top: 50px;
+    
+}
+.VelikaSLika .slika .txtNaSlici h1
+{
+    color: #ffcc00;
+    font-size: 40px;
+    
+}
+
+
+.VelikaSLika .slika .txtNaSlici a
+{
+    color: #fff;
+}
+
+.btn1 
+{
+    height: 40px;
+width: 120px;
+align-content: center;
+margin-top: 80px;
+background-color: #ffcc00;
+color: #154182;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+.btn6
+{
+    height: 40px;
+width: 120px;
+align-content: center;
+margin-top: 2px;
+background-color: #ffcc00;
+color: #154182;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.btn6:hover
+{
+    background-color: #154182;
+    color: #fff;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+
+/* who we are deo */
+
+.WhoWeAre
+{
+    margin: auto;
+    height: 270px;
+    width: 1200px;
+    background-color: #fff;
+}
+
+
+.WhoWeAre .WhoWeAreSlika
+{
+    float: left;
+    background-color: #fff;
+    width: 340px;
+    height: 270px;
+    background-image: url(images/leftimage.jpg);
+}
+
+.WhoWeAre .WhoWeAreTxt 
+{
+    float: left;
+    background-color: #fff;
+    width: 800px;
+    height: 260px;
+    padding-left: 30px;
+    color:  #154182;
+    padding-top: 10px;
+}
+
+.btn2 
+{
+    height: 40px;
+width: 120px;
+align-content: center;
+margin-top: 50px;
+background-color: #ffcc00;
+color: #154182;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+
+
+.AboutUS
+{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    background-color: #b3c39b;
+    text-align: center;
+    color: #154182;
+}
+
+/* sloj jedan */
+.AboutUS .AUS1
+{
+    width: 800px;
+    height: 250px;
+    background-color: #b3c39b;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+.AboutUS .AUS1 .A1
+{
+    height: 200px;
+    width: 400px;
+    float: left;
+    background-color: #b3c39b ;
+}
+.AboutUS .AUS1 .A2
+{
+    height: 200px;
+    width: 400px;
+    float: left;
+    background-color: #b3c39b;
+}
+
+
+.AboutUS .AUS1 .A1 .one
+{
+    height: 56px;
+    width: 58px;
+    margin: auto;
+    background-color: #b3c39b;
+    background-image: url(images/one.png);
+}
+.AboutUS .AUS1 .A1 .oneTXT
+{
+    height: auto;
+    width: 300px;
+    background-color: #b3c39b;
+    margin: auto;
+    color: #154182;
+    padding-top: 20px;
+}
+
+.AboutUS .AUS1 .A1 .oneTXT h1
+{
+    color: #154182;
+}
+
+
+
+
+/* slika 2 */
+
+
+.AboutUS .AUS1 .A2 .two
+{
+    height: 72px;
+    width: 72px;
+    margin: auto;
+    background-color: #b3c39b;
+    background-image: url(images/two.png);
+}
+
+
+.AboutUS .AUS1 .A2 .twoTXT
+{
+    height: auto;
+    width: 300px;
+    background-color: #b3c39b;
+    margin: auto;
+    color: #154182;
+}
+
+
+
+
+/* sloj 2 */
+
+.AboutUS .AUS2
+{
+    width: 800px;
+    height: 300px;
+    background-color: #b3c39b;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.AboutUS .AUS2 .B1
+{
+    height: 200px;
+    width: 400px;
+    float: left;
+    background-color: #b3c39b ;
+}
+.AboutUS .AUS2 .B2
+{
+    height: 200px;
+    width: 400px;
+    float: left;
+    background-color: #b3c39b;
+}
+
+
+
+
+
+.AboutUS .AUS2 .B1 .one
+{
+    height: 73px;
+    width: 73px;
+    margin: auto;
+    background-color: #b3c39b;
+    background-image: url(images/three.png);
+}
+.AboutUS .AUS2 .B1 .oneTXT
+{
+    height: auto;
+    width: 300px;
+    background-color: #b3c39b;
+    margin: auto;
+    color: #154182;
+    padding-top: 20px;
+}
+
+.AboutUS .AUS2 .B1 .oneTXT h1
+{
+    color: #154182;
+}
+
+
+
+/*n slika 2 */
+
+.AboutUS .AUS2 .B2 .two
+{
+    height: 72px;
+    width: 72px;
+    margin: auto;
+    background-color: #b3c39b;
+    background-image: url(images/four.png);
+}
+
+
+.AboutUS .AUS2 .B2 .twoTXT
+{
+    height: auto;
+    width: 300px;
+    background-color: #b3c39b;
+    margin: auto;
+    color: #154182;
+    padding-top: 20px;
+}
+
+
+
+
+.dugmeZuto
+{
+    height: 50px;
+    width: 1200px;
+    background-color:  #b3c39b;
+}
+
+.dugmeZuto .Zuto
+{
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    background-color:  #b3c39b;
+}
+
+
+.btn3
+{
+    height: 40px;
+width: 120px;
+align-content: center;
+background-color: #ffcc00;
+color: #154182;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+
+
+/* sloj iznad futera */
+
+
+.iznadfutera
+{
+    width: 1200px;
+    height: 190px;
+    background-color: #fff;
+    margin: auto;
+}
+
+
+
+.iznadfutera .znacilevo
+{
+    float: left;
+    height: 150px;
+    width: 600px;
+    background-color: #fff;
+    color: #154182;
+    padding: 20px;
+}
+.iznadfutera .znacilevo h1 
+{
+    color: #ffcc00;
+    font-size: 44px;
+}
+
+
+.iznadfutera .znacidesno
+{
+    float: right;
+    height: 150px;
+    width: 400px;
+    background-color: #fff;
+}
+
+.iznadfutera .znacidesno .dugme4
+{
+    height: 40px;
+    width: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.btn4
+{
+    height: 40px;
+width: 120px;
+align-content: center;
+background-color: #ffcc00;
+color: #154182;
+    font-style: oblique;
+    font-size: 15px;
+   margin-left: 35%;
+}
+
+.btn4:hover
+{
+    background-color: #154182;
+    color: #fff;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+.btn1:hover
+{
+    background-color: #154182;
+    color: #fff;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+.btn2:hover
+{
+    background-color: #154182;
+    color: #fff;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+.btn3:hover
+{
+    background-color: #154182;
+    color: #fff;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+
+
+
+
+/* footer */
+
+.footer
+{
+    width: 1200px;
+    height: 294px;
+    background-color: #154182 ;
+    margin: auto;
+}
+
+
+/* footer prvi */
+.footer .footer1
+{
+    float: left;
+    width: 400px;
+    height: 294px;
+    background-color: #154182 ;
+}
+
+
+.footer .footer1 .suf1
+{
+    background-image: url(images/footer_logo.png);
+    height: 41px;
+    width: 35px;
+    margin: 20px;
+}
+.footer .footer1 .txtuf1
+{
+    height: 100px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.footer .footer1 .txtuf1 a
+{
+ color: #fff;   
+}
+
+
+/* footer drugi */
+
+.footer .footer2
+{
+    float: left;
+    width: 400px;
+    height: 294px;
+    background-color: #154182 ;
+}
+
+.footer .footer2 .facebook
+{
+    height: 36px;
+    width: 36px;
+    background-color: #154182 ;
+    float: left;
+    margin: 30px;
+}
+
+
+
+.footer .footer2 .twitter
+{
+    height: 36px;
+    width: 36px;
+    background-color: #154182 ;
+    float: left;
+    margin: 30px;
+}
+
+
+
+.footer .footer2 .tekstBajoMoj 
+{
+    
+    padding-top:  110px;
+    padding-left: 30px;
+    color: #fff;
+}
+
+
+
+
+
+
+/* footer treci */
+
+.footer .footer3
+{
+    float: right;
+    width: 370px;
+    height: 294px;
+    background-color: #154182 ;
+    background-image: url(images/footer-bg.jpg)
+}
+
+
+.footer .footer3 .licenceNumber
+{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* radi se druga strana, CONTACT */
+
+
+.forma
+{
+width: 1200px;
+    height: 600px;
+    margin: auto;
+    background-color: #154182 ;
+}
+
+
+.forma .kontaktirajte
+{
+    width: 1000px;
+    height: 90px;
+    background: #154182 ;
+    padding-top: 50px;
+    padding-left: 30px;
+    
+}
+
+.forma .kontaktirajte h1
+{
+    color: #ffcc00;
+    font-size: 44px;
+}
+
+
+
+.forma .miniForma
+{
+    width: 1200px;
+    height: 631px;
+    background-color: #154182 ;
+}
+
+.forma .miniForma .miniForma1
+{
+    width: 400px;
+    height: 600px;
+    background-color: #154182 ;
+    float: left;
+}
+
+.forma .miniForma .miniForma1 .jedan
+{
+    height: 150px;
+    width: 400px;
+    background-color: #154182 ;
+    
+}
+
+.forma .miniForma .miniForma1 .jedan .ll
+{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.forma .miniForma .miniForma1 .jedan a
+{
+    color: #fff;
+}
+
+
+
+
+/*dva */
+
+.forma .miniForma .miniForma1 .dva
+{
+     height: 150px;
+    width: 400px;
+    background-color: #154182 ;
+    
+}
+
+.forma .miniForma .miniForma1 .dva .slusalica
+{
+    height: 45px;
+    width: 45px;
+    background-color: #154182 ;
+    margin-left: 20px;
+    background-image: url(images/bg_tell.png);
+}
+
+
+.forma .miniForma .miniForma1 .dva .broj
+
+{
+    height: 20px;
+    widows: 120px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.forma .miniForma .miniForma1 .dva .broj a
+{
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+/* tri */
+
+
+.forma .miniForma .miniForma1 .tri
+{
+     height: 150px;
+    width: 400px;
+    background-color: #154182 ;
+    
+}
+
+.forma .miniForma .miniForma1 .tri .pismo
+{
+    height: 36px;
+    width: 44px;
+    background-color: #154182 ;
+    margin-left: 20px;
+    background-image: url(images/bg_email.png);
+    
+    
+}
+
+.forma .miniForma .miniForma1 .tri .broj
+
+{
+    height: 20px;
+    widows: 120px;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* cetiri */
+
+.forma .miniForma .miniForma1 .cetiri
+{
+     height: 150px;
+    width: 400px;
+    background-color: #154182 ;
+    
+}
+
+.forma .miniForma .miniForma1 .cetiri .sanduce
+{
+    height: 36px;
+    width: 48px;
+    background-color: #154182 ;
+    margin-left: 20px;
+    background-image: url(images/bg_address.png);
+    color: #fff;
+    
+}
+
+.forma .miniForma .miniForma1 .cetiri .broj
+
+{
+    height: 20px;
+    widows: 120px;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ovde se radi za mini formu 2, sablon za popunjavanje */
+
+.forma .miniForma .miniForma2
+{
+    width: 800px;
+    height: 600px;
+    background-color: #154182 ;
+    float: left;
+}
+
+.forma .miniForma .miniForma2 .popuniMe
+{
+    width: 800px;
+    height: 530px;
+    background-color: #154182 ;
+    margin: auto;
+}
+
+.forma .miniForma .miniForma2 .popuniMe .prviRed
+{
+    height: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+.forma .miniForma .miniForma2 .popuniMe .prviRed input
+{
+height: 39px;
+
+width: 361px;
+
+padding: 6px;
+
+margin-left: 14px;
+    
+}
+
+
+.forma .miniForma .miniForma2 .popuniMe .drugiRed
+{
+    height: 50px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.forma .miniForma .miniForma2 .popuniMe .drugiRed input
+{
+height: 39px;
+
+width: 361px;
+
+padding: 6px;
+
+margin-left: 14px;
+    
+    margin-top: 22px;
+    padding-top: 10px;
+}
+
+
+
+.forma .miniForma .miniForma2 .popuniMe .treciRed
+{
+    height: 50px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.forma .miniForma .miniForma2 .popuniMe .treciRed input
+{
+height: 39px;
+
+width: 361px;
+
+padding: 6px;
+
+margin-left: 14px;
+    margin-top: 47px;
+    padding-top: 10px;
+}
+
+
+
+.forma .miniForma .miniForma2 .popuniMe .cetvrtiRed
+{
+    height: 50px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.forma .miniForma .miniForma2 .popuniMe .cetvrtiRed input
+{
+height: 39px;
+
+width: 361px;
+
+padding: 6px;
+
+margin-left: 14px;
+    margin-top: 69px;
+    padding-top: 10px;
+}
+
+
+
+.forma .miniForma .miniForma2 .popuniMe .petiRed
+{
+    height: 50px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.forma .miniForma .miniForma2 .popuniMe .petiRed textarea
+{
+height: 157px;
+
+width: 753px;
+
+padding: 6px;
+
+margin-left: 14px;
+    margin-top: 69px;
+    padding-top: 10px;
+}
+
+
+
+.forma .miniForma .miniForma2 .plavi
+{
+    background-color: #154182 ;
+    height: 70px;
+    width: 800px;
+}
+
+
+
+.btn5
+{
+    height: 40px;
+width: 120px;
+align-content: center;
+background-color: #ffcc00;
+color: #154182;
+    font-style: oblique;
+    font-size: 15px;
+   margin-top: 30px;
+    margin-left: 14px;
+}
+
+.btn5:hover
+{
+    background-color: #154182;
+    color: #fff;
+     transition: all .3s ease-in-out;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+}
+
+
+
+.prazno
+{
+    width: 1200px;
+    height: 60px;
+    background-color: #fff;
+    margin: auto;
+}
+
+
+
+
